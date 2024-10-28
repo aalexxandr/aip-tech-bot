@@ -2,7 +2,7 @@ import { BOT_TOKEN } from './constants';
 
 export async function sendDataToGoogleSheet(data: string[]) {
 	const url =
-		'https://script.google.com/macros/s/AKfycby8P10VmOilHNg-QupNAQUdPjRxXldzFaIUwbOlK1rZ2Tt0Ce05d9fkGB4plmlpHPGPXQ/exec';
+		'GOOGLE_SHEET_URL';
 
 	fetch(url, {
 		method: 'POST',
